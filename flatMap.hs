@@ -1,0 +1,1 @@
+flatMap items = if null items then [] else (head items) * 2 : flatMap(tail items)
