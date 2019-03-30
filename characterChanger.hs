@@ -1,2 +1,4 @@
 --filterVowels second Attempt
-filterVowels xs = [if x `elem` "aeiou" then '_' else x | x<-xs]
+filterVowels xs = [if x `elem` "aeiou" then x else '_' | x<-xs]
+
+filter ('_') (filterVowels ['a'..'z'])

@@ -1,3 +1,8 @@
+List 
+> List consists of same data types.
+> String is a list. 
+> 
+
 List  operation: 
 1) `head` takes a list and returns its head. The head of a list is basically its first element.
 2) `tail`  takes a list and returns its tail. In other words, it chops off a list's head.
@@ -12,3 +17,5 @@ List  operation:
 11) `minimum` returns the smallest.
 12) `product` takes a list of numbers and returns their product.
 13) `elem` takes a thing and a list of things and tells us if that thing is an element of the list. It's usually called as an infix function because it's easier to read that way.
+
+
